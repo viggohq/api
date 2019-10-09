@@ -215,9 +215,9 @@ function isPropertyDifferent(item1, item2, prop ){
  * ...
  * 11: locality
  * 13: neighbourhood
- * 
+ *
  * note: Infinity is returned if layer not found in array, this is in
- * order to ensure that a high value is returned rather than the 
+ * order to ensure that a high value is returned rather than the
  * default '-1' value returned for misses when using findIndex().
  */
 function getPlaceTypeRank(item) {
@@ -226,7 +226,7 @@ function getPlaceTypeRank(item) {
 }
 
 /**
- * apply unicode normalization, lowercase characters and remove 
+ * apply unicode normalization, lowercase characters and remove
  * diacritics and some punctuation.
  */
 function normalizeString(str){
